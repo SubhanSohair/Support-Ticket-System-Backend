@@ -13,9 +13,6 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
-@app.get("/")
-async def root():
-    return {"message": "Welcome to the Support Ticket System API"}
 
 # ✅ Allow CORS for frontend
 app.add_middleware(
