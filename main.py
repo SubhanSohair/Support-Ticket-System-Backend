@@ -13,10 +13,6 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
-@app.get("/api/health")
-def health():
-    return {"status": "ok"}
-
 # ✅ Allow CORS for frontend
 app.add_middleware(
     CORSMiddleware,
