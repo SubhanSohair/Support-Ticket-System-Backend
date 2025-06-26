@@ -1,0 +1,20 @@
+# === PYTHON (FastAPI backend) ===
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite3
+.env
+venv/
+env/
+.venv/
+
+# === NODE / VITE (React frontend) ===
+support-ticket-frontend/node_modules/
+support-ticket-frontend/dist/
+support-ticket-frontend/.env
+
+# === OS / EDITOR ===
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
